@@ -5,4 +5,6 @@ applications:
   host: pal-tracker-kg
   services:
   - tracker-database
+env:
+- SECURITY_FORCE_HTTPS: true
 
